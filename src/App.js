@@ -101,7 +101,7 @@ function App() {
             
             
             <Box sx={{display: { xs: "none", sm: "flex" }, flexDirection: "column",
-              gap: "16px",mt: "auto", ml: "12px", color: "#7F7F7F", mt:"auto"}}>
+              gap: "16px",mt: "auto", ml: "12px", color: "#7F7F7F"}}>
 
               <Box sx={{ display: "flex", gap: "8px" }}><i className="bi bi-question-octagon"></i>
                 Help & Support </Box>
@@ -236,7 +236,7 @@ function App() {
                         <Grid item size={{xs:12,sm:4}}>
                           <Box sx={{backgroundColor:"#F1F1F1",
                             borderRadius:"16px", p: 2,}}>
-                              <Box component="img" src={IMG1}
+                              <Box component="img" src={IMG2}
                               alt="The Old Rectory" sx={{width:"100%",
                                 objectFit:"cover", borderRadius:"12px"}}/>
                                 <Box>
@@ -266,7 +266,7 @@ function App() {
                         <Grid item size={{xs:12,sm:4}}>
                           <Box sx={{backgroundColor:"#F1F1F1",
                             borderRadius:"16px", p: 2,}}>
-                              <Box component="img" src={IMG1}
+                              <Box component="img" src={IMG3}
                               alt="Holly Cottage" sx={{width:"100%",
                                 objectFit:"cover", borderRadius:"12px"}}/>
                                 <Box>
@@ -285,7 +285,7 @@ function App() {
                                 <Typography sx={{color: "#7F7F7F", 
                                 fontSize: { xs: "0.75rem", sm: "10px", md: "0.75rem" },
                                 mt: 1, display: "flex", alignItems: "center",
-                                gap: 0.5,whiteSpace: "nowrap",whiteSpace: "nowrap",}}>
+                                gap: 0.5,whiteSpace: "nowrap",}}>
                                   <i className="bi bi-geo-alt-fill"></i>
                                   Alice Court, Annapolis MD 21401
                                 </Typography>
@@ -296,7 +296,7 @@ function App() {
                         <Grid item size={{xs:12,sm:4}}>
                           <Box sx={{backgroundColor:"#F1F1F1",
                             borderRadius:"16px", p: 2,}}>
-                              <Box component="img" src={IMG1}
+                              <Box component="img" src={IMG4}
                               alt="Meadow View" sx={{width:"100%",
                                 objectFit:"cover", borderRadius:"12px"}}/>
                                 <Box>
@@ -326,7 +326,7 @@ function App() {
                         <Grid item size={{xs:12,sm:4}}>
                           <Box sx={{backgroundColor:"#F1F1F1",
                             borderRadius:"16px", p: 2,}}>
-                              <Box component="img" src={IMG1}
+                              <Box component="img" src={IMG5}
                               alt="Greenacres" sx={{width:"100%",
                                 objectFit:"cover", borderRadius:"12px"}}/>
                                 <Box>
@@ -356,7 +356,7 @@ function App() {
                         <Grid item size={{xs:12,sm:4}}>
                           <Box sx={{backgroundColor:"#F1F1F1",
                             borderRadius:"16px", p: 2,}}>
-                              <Box component="img" src={IMG1}
+                              <Box component="img" src={IMG6}
                               alt="White Cottage" sx={{width:"100%",
                                 objectFit:"cover", borderRadius:"12px"}}/>
                                 <Box>
